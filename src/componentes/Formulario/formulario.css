@@ -1,0 +1,30 @@
+.formulario-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 80px 50px;
+}
+.formulario-container .formulario {
+    background: #F7F7F7;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    flex: 1;
+    padding: 36px 64px;
+}
+.formulario-container .formulario h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .formulario-container {
+        width: 100%;
+        margin: 40px 0;
+        padding: 36px 0px;
+    }
+
+    .formulario:last-child {
+        margin-top: 1rem;
+    }
+}

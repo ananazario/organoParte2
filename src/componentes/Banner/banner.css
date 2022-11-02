@@ -1,0 +1,13 @@
+.cabecalho {
+    background-color: #6278F7;
+    text-align: center;
+}
+.cabecalho img {
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .cabecalho img {
+        height: 12rem;
+    }
+}
